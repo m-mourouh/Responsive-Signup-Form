@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>  
+  
+        <!-- Page wrapper -->
+        <div class="wrapper">
+          <!-- form  container -->
+        <div class="container bg-white rounded  position-relative" id="container">
+          <!-- user icon  -->
+            <span class="badge bg-primary d-none d-sm-block p-2 p-md-3 fs-5 position-absolute translate-middle-y shadow-sm userIcon"><i class="fa-user far icon"></i></span>
+            <!-- row -->
+            <div class="row">
+              <!-- left column -->
+            <div class="col-lg-6 justify-content-center left-column">
+                <p class="h4 mt-5" >Inscrivez-vous</p>
+                <p class="text-secondary line1">Créer un compte gratuit sur Futur Digital</p>
+                <!-- signup form -->
+                <form action="#" method="#" >
+                  <!-- fullName input -->
+                    <div class="mb-3 mt-4">
+                      <div class="position-relative">
+                        <input type="text" class="form-control border-2 py-3 inputFiled" id="fullName" placeholder=" ">
+                        <label for="fullName" class="text-secondary" id="lab">Nom complet</label>
+                      </div>
+                      <div id="nameField" class="form-text text-danger"></div>
+                    </div>
+                    <!-- email input -->
+                    <div class="mb-3">
+                      <div class="position-relative">
+                        <input type="text" class="form-control  border-2  py-3 inputFiled" placeholder=" " id="email">
+                        <label for="email" class="text-secondary" id="lab">Adresse e-mail</label>
+                      </div>
+                      <div id="emailField" class="form-text text-danger"></div>
+                    </div>
+                    <!-- first password input -->
+                    <div class="mb-3">
+                      <div class="position-relative">
+                        <input type="password" class="form-control  border-2 py-3 inputFiled" placeholder=" " id="password1">
+                        <label for="password1" class="text-secondary" id="lab">Mot de passe</label>
+                        <div class="position-absolute translate-middle start-100 top-50 pe-5 text-secondary fs-5 eyeBtn"><i class="fas fa-eye"></i></div>
+                      </div>
+                      <div id="password1Field" class="form-text">Le mot de passe doit comporter entre 4 et 6 caractères</div>
+                    </div>
+                    <!-- second password input -->
+                    <div class="mb-3">
+                      <div class="position-relative">
+                        <input type="password" class="form-control border-2 py-3 inputFiled" placeholder=" " id="password2">
+                        <label for="password2" class="text-secondary" id="lab">Confirmer le mot de passe</label>
+                        <div class="position-absolute translate-middle start-100 top-50 pe-5 text-secondary fs-5 eyeBtn"><i class="fas fa-eye"></i></div>
+                      </div>
+                      <div id="password2Fieled" class="form-text text-danger"></div>
+                    </div>
+                    <!-- checkbox button -->
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="check">
+                      <label class="form-check-label text-secondary" for="check">J'ai accepté les <a href="#" class="link-primary">conditions générales</a></label>
+                    </div>
+                    <!-- submit button -->
+                    <button type="submit" class="btn btn-primary w-100 py-3 mb-2 text-white text-uppercase" id="submitBtn">s'inscrire</button>
+                  </form>
+            </div>
+            <!-- right column  -->
+            <div class="col-lg-6 d-none d-md-block p-0 position-relative overflow-hidden rounded-end right-column"></div>
+          </div>
+        </div>
+      </div>
+      <!-- jQuery cdn -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+     <!-- Bootstrap cdn -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- javascript script -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
